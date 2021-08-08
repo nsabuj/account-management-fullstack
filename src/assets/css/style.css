@@ -1,0 +1,52 @@
+/* Css for App component starts here */
+form{
+	border: 1px solid #7eaaf3;
+    width: 260px;
+    height: 112px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-input-group, button{
+	float:left;
+}
+
+.form-input-group input{
+	margin:10px 0 10px 0;
+	border-radius: 2px;
+	border-width:1px;
+}
+
+.form-input-group input:focus {
+    
+ border: 1px solid #7eaaf3 !important;
+box-shadow: 0 0 3px #7eaaf3 !important;
+-moz-box-shadow: 0 0 3px #7eaaf3 !important;
+-webkit-box-shadow: 0 0 3px #7eaaf3 !important;
+outline-width: 0!important;
+
+}
+.error{
+	border:1px solid red;
+}
+/* css for app component ends here */
+
+/* styles for Transaction list component starts here */
+
+
+.transaction-list .transaction-single{
+    border: 1px solid #ccc;
+    list-style: none;
+    width: 535px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.transaction-list .transaction-single .trans-type, .transaction-list .transaction-single .account, 
+.transaction-list .transaction-single .balance
+{
+font-weight: bold;
+}
+
